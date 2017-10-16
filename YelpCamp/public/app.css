@@ -1,0 +1,57 @@
+body {
+    background: #EFEFEF;
+    min-height: 600px;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+div .thumbnail{
+    padding: 0;
+}
+
+.disappear{
+    display: none;
+}
+
+.editCommentForm{
+    padding-top: 5px;
+    width:32em;
+}
+
+.delete-form {
+    display: inline;
+}
+
+#newCampForm{
+    width: 30%;
+    margin: 0 auto;
+}

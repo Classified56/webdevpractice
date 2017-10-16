@@ -1,0 +1,15 @@
+{
+  "name": "practice-requests",
+  "version": "0.1.0",
+  "description": "This demonstrates how to handle HTTP requests with express and nodeJS",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davis Ranney",
+  "license": "ISC"
+}

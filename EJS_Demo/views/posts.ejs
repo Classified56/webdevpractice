@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<h1>The Posts Page</h1>
+
+<% posts.forEach(function(post){ %>
+    <li><%= post.title %> - <strong><%= post.author %></strong></li>
+<% }); %>
+
+<!-- EJS tags such as <%= %> gets rendered to the page with HTML while
+<% %> is just logic and will not appear on the page. Useful for rendering loops 
+other things like that. -->
+
+<% include partials/footer %>

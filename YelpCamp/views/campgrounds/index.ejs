@@ -1,0 +1,37 @@
+<% include ../partials/header %>
+
+<header class='jumbotron'>
+    <div class='container'>
+        <h1>Campgrounds</h1>
+        <p>Here is a list of our popular campgrounds</p>
+        <a class="button" href='/campgrounds/new'>Add a Campground</a>
+        <p>
+            <form action='/campgrounds' method='GET' class='form-inline'>
+                <div class='form-group'>
+                    <input type='text' name='search' placeholder='Search' class='form-control'>
+                    <input type='Submit' value='Search' class='btn btn-default'>
+                </div>
+            </form>
+        </p>
+    </div>
+</header>
+
+<div class='row text-center'>
+    <% campgrounds.forEach(function(camp){ %>
+        <div class='col-md-4 col-sm-6'>
+            <div class='thumbnail'>
+                <img src='<%=camp.image%>'>
+                <div class='description'>
+                    <h4><%=camp.name%></h4>
+                </div>
+                <p>
+                    <a href='/campgrounds/<%=camp.id%>' class='btn btn-primary'>More Info</a>
+                </p>
+            </div>
+        </div>
+    <% }); %>
+</div>
+
+
+
+<% include ../partials/footer %>

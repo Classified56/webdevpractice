@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<h1>You fell in love with: <%= thingVar.toUpperCase() %></h1>
+
+<% if(thingVar.toLowerCase() === 'boobs'){ %>
+    <h2>BOOBS ARE AWESOME!</h2>
+<% } else { %>
+    <h4>Cool thing bro.</h4>
+<% } %>
+
+<h3>This is an ejs file</h3>
+
+<p>5*5-4=<%= 5 * 5 - 4 %></p>
+
+<% include partials/footer %>

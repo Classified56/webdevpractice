@@ -1,0 +1,8 @@
+Express is a framework that can help handle HTTP requests and build responses quickly and easily.
+It is lightweight and flexible.
+
+the package faker is useful for getting faked user data. ie address, names, emails, products, etc.
+
+install: npm install express --save
+
+init: builds a package.json file
